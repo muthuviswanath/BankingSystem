@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Customer_Transactional_Details_Test.Models.TDModel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 style="font-family:'Global Serif'; color:brown">Transaction Details</h1>
+
+
+<table class="table" style="color:cadetblue">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Transactional_Details)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Credit)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Debit)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TNo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Transactional_Details)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Credit)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Debit)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date)
+        </td>
+       
+    </tr>
+}
+
+</table>

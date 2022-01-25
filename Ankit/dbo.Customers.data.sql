@@ -1,0 +1,5 @@
+﻿INSERT INTO Customers VALUES('Ankit','ankit@gmail.com','9565656689','Pratap Nagar','Jaipur','DTSPR0925','85622599786','01-11-1998')
+INSERT INTO Customers VALUES('Vinuth','Vinuth@gmail.com','9656455458','Aanand Vihar','Bangalore','DTSPR09525','654646545646','08-01-1998')
+INSERT INTO Customers VALUES('Komali','Komali@gmail.com','4548748554','Locus Society','Kolkata','DTER0898','45545646522','12-04-1999')
+INSERT INTO Customers VALUES('Shuvam','Shuvam@gmail.com','4545646545','PWD Colony','Kochi','DTWT0720','5489987895','15-08-1997')
+INSERT INTO Customers VALUES('Sonam','Sonam@gmail.com','48979465646','Narmada Nagar','Mumbai','DTSPR055','6489489484','29-06-1999')

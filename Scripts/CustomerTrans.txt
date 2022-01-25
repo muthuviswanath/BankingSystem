@@ -1,0 +1,21 @@
+USE [CustomersDetails.Models.CustomerContext]
+GO
+
+/****** Object:  Table [dbo].[TDModels]    Script Date: 25-01-2022 15:57:54 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[TDModels](
+	[ID] [int] NULL,
+	[TNo] [int] NULL,
+	[Trasactional_Details] [nvarchar](max) NULL,
+	[Credit] [real] NULL,
+	[Debit] [real] NULL,
+	[Date] [datetime] NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+

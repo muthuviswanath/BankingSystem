@@ -1,0 +1,16 @@
+USE [StudentDB]
+GO
+
+/****** Object:  Table [dbo].[student]    Script Date: 25-01-2022 12:56:50 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[student](
+	[studentID] [nchar](10) NULL,
+	[studentName] [nvarchar](50) NULL
+) ON [PRIMARY]
+GO
+

@@ -1,0 +1,20 @@
+USE [CustomersDetails.Models.CustomerContext]
+GO
+
+/****** Object:  Table [dbo].[CustomerAccount]    Script Date: 25-01-2022 15:56:43 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[CustomerAccount](
+	[FirstName] [varchar](50) NULL,
+	[LastName] [varchar](50) NULL,
+	[AccountNumber] [int] NULL,
+	[BankBranch] [varchar](50) NULL,
+	[BankIFSC] [nvarchar](50) NULL,
+	[BankName] [varchar](50) NULL
+) ON [PRIMARY]
+GO
+

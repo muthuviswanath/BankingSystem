@@ -1,0 +1,17 @@
+USE [CustomersDetails.Models.CustomerContext]
+GO
+
+/****** Object:  Table [dbo].[Login]    Script Date: 25-01-2022 15:57:22 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Login](
+	[Email] [nvarchar](50) NULL,
+	[Password] [varchar](max) NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+

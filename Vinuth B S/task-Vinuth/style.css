@@ -1,0 +1,41 @@
+body {
+  background-color: #344a72;
+  font-family: "Roboto", sans-serif;
+}
+form {
+  width: 300px;
+  margin-left: 20px;
+}
+
+form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+form input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+
+.customer-box{
+  width: 380px;
+  height: 800px;
+  margin: auto;
+  text-align: center;
+  border-radius: 3px;
+  background-color: white;
+}
+input[type="button"] {
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color: #49c1a2;
+  color: white;
+  font-size: 18px;
+}

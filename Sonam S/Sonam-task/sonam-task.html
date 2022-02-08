@@ -1,0 +1,72 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Account Details </title>
+    <link rel="stylesheet" href="C:\Users\Sonam.Singh\Desktop\style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="login-box">
+      <h1>Account Details</h1>
+      <form action="home.html" method="POST">
+        <label>First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="uname">Account number</label>
+        <input type="number" id="uname" name="username" pattern="^\d{9,18}$" placeholder="Account number">
+        <label for="uname">PAN number</label>
+        <input type="text" id="uname" name="username" pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}" placeholder="PAN number">
+        <label for="psw">Bank Branch</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="uname">Bank Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="uname">Bank IFSC</label>
+        <input type="text" id="uname" name="username" pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}" placeholder="PAN number">
+        <label for="uname">Customer ID</label>
+        <input type="text" id="uname" name="username" pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}" placeholder="PAN number">
+        <label for="date">Date of Account creation:</label>
+        <input type="date" name="datetime">
+       
+        <label for="country">Type of Scheme</label>
+        <select id="country" name="country">
+            <option value="australia"> MIS </option>
+            <option value="canada">SB</option>
+            <option value="usa">TD</option>
+            <option value="canada">KVP</option>
+            <option value="usa">RD</option>
+        </select>
+
+        <label for="country">Account type</label>
+        <select id="country" name="country">
+            <option value="australia">Saving </option>
+            <option value="canada">Current</option>
+        </select>
+        
+        <label for="skills">Service Request</label>
+        <input type="checkbox" name="skills1">
+        <label> Cheque Book</label>
+        <input type="checkbox" name="skills2">
+        <label> Credit Card</label>
+        <input type="checkbox" name="skills2">
+        <label> Pass Book</label><br>
+        <input type="checkbox" name="skills3">
+        <label>Debit Card</label>
+
+
+
+        <a href="home.html">
+          <input type="button" value="Submit"/>
+        </a>
+        
+      </form>
+    </div>
+    
+  </body>
+</html>
+

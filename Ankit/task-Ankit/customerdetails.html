@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>View Customer Detail</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  	<style>
+  		  /* Remove the navbar's default margin-bottom and rounded borders */
+  		.navbar {
+  			margin-bottom: 0;
+      	border-radius: 0;
+    	}
+    
+    	/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    	.row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    	.sidenav {
+      		padding-top: 20px;
+      		background-color: #f1f1f1;
+      		height: 200%;
+    	}
+    
+    /* Set black background color, white text and some padding */
+    	footer {
+      		background-color: black;
+      		color: white;
+      		padding: 15px;
+    	}
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    	@media screen and (max-width: 767px) {
+      		.sidenav {
+        	height: auto;
+        	padding: 15px;
+      	}
+      	.row.content {height:auto;} 
+    	}
+    	.main-body {
+    		padding: 15px;
+		  }
+
+		.card{
+  			text-align: center;
+    		padding: 10px;
+    		background-color: whitesmoke;
+    		border-radius: 10px;
+    		box-shadow: -7px -7px 20px rgba(0,0,0,0.3), 7px 7px 20px rgba(0,0,0,0.3);;
+  		}
+    .card-body {
+       flex: 1 1 auto;
+       min-height: 1px;
+       padding: 1rem;
+      }
+
+
+
+		.circle1{
+    		background-color: transparent;
+    		border:  3px solid #49c1a2;
+    		height:  100px;
+    		position: relative;
+    		padding: 2px;
+    		top: 0px;
+    		left:  0px;
+    		border-radius: 50%;
+    		width: 99px;
+  		}
+    </style>	
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><img src="logo.png" width="80px", height="30px"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="customeradd.html">Create Customer</a></li>
+        <li class="active"><a href="viewCustomer.html">View Customer</a></li>
+        <li><a href="#">Add Account Details</a></li>
+        <li><a href="#">Customer Transaction</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <p><a href="#"><i class="glyphicon glyphicon-envelope"></i><br>Mail Us</a></p><br>
+      <p><a href="#"><i class="glyphicon glyphicon-phone"></i><br>Call Us</a></p><br>
+      <p><a href="#"><i class="glyphicon glyphicon-user"></i><br>Know Us</a></p><br>
+    </div>
+    <div class="col-sm-8 text-left">
+      <div class="container">
+    <div class="main-body">
+        <div class="row gutters-sm">
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                  <img src="user.jpg" alt="Admin" class="circle1" width="150">
+                    <div class="mt-3">
+                      <h4>Ankit Rathore</h4>
+                      <p class="text-secondary mb-1">Jaipur</p>
+                    </div>
+                    <br>
+                     <h2 style="text-align:center">Account Details</h2>
+                  <div class="card-body">
+                    <div class="row">
+                    <div class="col-sm-5">Account Number</div>
+                    <div class="col-sm-13 text-secondary">78956464855</div>
+                  </div>
+                  <br><br>
+                  <div class="row">
+                    <div class="col-sm-5">IFSC CODE</div>
+                    <div class="col-sm-13 text-secondary">PQRI05895</div>
+                  </div>
+                  <br><br>
+                  <div class="row">
+                    <div class="col-sm-5">Branch Code</div>
+                    <div class="col-sm-13 text-secondary">123589</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-5">Branch Name</div>
+                    <div class="col-sm-13 text-secondary">Mansorvar</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-5">Branch Name</div>
+                    <div class="col-sm-13 text-secondary">Mansorvar</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card mb-3">
+                    <h2 style="text-align:center">Customer Details</h2>
+                    <br><br>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-3">Name</div>
+                            <div class="col-sm-9 text-secondary">Ankit Rathore</div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-3">Email</div>
+                            <div class="col-sm-9 text-secondary">ank@gmail.com</div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-3">Phone</div>
+                            <div class="col-sm-9 text-secondary">+91 0123456789</div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-3">DOB</div>
+                            <div class="col-sm-9 text-secondary">01/11/1998</div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-3">Aadhar Number</div>
+                            <div class="col-sm-9 text-secondary">12848656489</div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-3">Pan card Number</div>
+                            <div class="col-sm-9 text-secondary">DTSPR0942</div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-3">Address</div>
+                            <div class="col-sm-9 text-secondary">Arihant Colony Mansrover Jaipur</div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-3">City</div>
+                            <div class="col-sm-9 text-secondary">Jaipur</div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-15">
+                               <a href="viewCustomer.html">  
+                                <button class="btn btn-primary">Back To List</button>
+                               </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+</div>
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+</body>
+</html>

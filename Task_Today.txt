@@ -1,0 +1,13 @@
+admin - Create User - Create user page should be visible only if am loggin in as admin
+	  - Delete User
+
+user - dashboard - Account Balance, last 10 transactions
+	 - Profile Information
+	 - Make transactions
+	 - Add Beneficiery - Search for the user accounts that are present for this bank
+	 - Deposit
+
+
+User - Modules that he/she has the permission to access
+
+Tables to be created and it should at least be in 3NF form

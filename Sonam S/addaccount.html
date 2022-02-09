@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>add account details</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand"><img src="C:\Users\Sonam.Singh\Desktop\bank\logo.png" width="80px",height="30px"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="home.html">Home</a></li>
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <p><a href="mailto:hege@example.com"><i class="glyphicon glyphicon-envelope"></i><br>Mail Us</a></p><br>
+    <p><a href="#container-fluid text-center"><i class="glyphicon glyphicon-phone"></i><br>Call Us</a></p><br>
+    <p><a href="#"><i class="glyphicon glyphicon-user"></i><br>Know Us</a></p><br>
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1>Account Details</h1>
+
+
+      <br>
+      <form>
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name">
+        <br>
+      
+      
+        <br><label for="accnum">Account number</label><br>
+        <input type="text" id="accnum" name="accnum" pattern="[1-9]{1}[0-9]{9}"> 
+          <br> <br>
+        <label for="uname">PAN</label><br>
+ <input type="text" id="uname" name="username" pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}"><br>
+       <br> <label for="psw">Bank Branch</label>  <br>
+        <input type="text" id="lname" name="lastname"> 
+
+        <br> <br>
+        <label for="uname">Bank Name</label> <br>
+        <input type="text" id="lname" name="lastname"> <br>
+          <br>
+        <label for="uname">Bank IFSC</label>   <br>
+        <input type="text" id="uname" name="username" pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}">    <br> <br>
+        <label for="date">Date of Account creation:</label><br>
+        <input type="date" name="datetime"><br><br>
+        <label for="country">Type of Scheme</label><br>
+        <select id="country" name="country"><br>
+            <option value="usa">TD</option>
+            <option value="canada">KVP</option>
+            <option value="usa">RD</option>
+        </select>
+       <br> <br>
+        <label for="country">Account type</label><br>
+        <select id="country" name="country">
+            <option value="australia">Saving </option>
+            <option value="canada">Current</option>
+        </select>
+       <br><br><br>
+        <b>Service Request</b>
+        <div class="checkbox">
+            <label><input type="checkbox" value="">Cheque Book </label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Credit Card</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Pass Book</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" value="">Debit Card</label>
+          </div>
+        </form>
+     
+    </div>
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+        <p></p>
+      </div>
+      <div class="well">
+        <p></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <a href="home.html" class="active">Home</a>
+
+  <a href="#contact">+97 59595959595</a>
+</footer>
+
+</body>
+</html>
